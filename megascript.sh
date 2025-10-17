@@ -21,7 +21,7 @@ for cmd in git rsync python3 hugo; do
 done
 
 # Step 1: Check if Git is initialized, and initialize if necessary
-if [ ! -d ".git" ]; then
+if [ ! -e ".git" ]; then
     echo "Initializing Git repository..."
     git init
     git remote add origin $myrepo
