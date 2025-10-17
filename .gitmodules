@@ -1,6 +1,8 @@
 [submodule "hugo"]
 	path = hugo
 	url = git@github.com:Nixo371/Segmentation_Fault.git
+	branch = master
 [submodule "posts"]
 	path = posts
 	url = git@github.com:Nixo371/SegmentationFaultPosts.git
+	branch = master
